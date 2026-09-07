@@ -11,7 +11,16 @@
 <meta property="og:description" content="Work out any plant's Sheckle value in seconds. Pick a crop, add mutations, enter weight - done.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://grow-a-garden-calculator.github.io/">
+<meta property="og:image" content="https://grow-a-garden-calculator.github.io/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Grow a Garden Calculator - Free Plant Value & Mutation Tool">
+<meta name="twitter:description" content="Work out any plant's Sheckle value in seconds. Pick a crop, add mutations, enter weight - done.">
+<meta name="twitter:image" content="https://grow-a-garden-calculator.github.io/og-image.png">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon-180.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -43,8 +52,64 @@
         "@type": "Answer",
         "text": "Yes, the calculator is completely free with no account or sign-up needed."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "Does weight really change a plant's value that much?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Weight is one of the biggest factors in the formula, so a plant grown a little heavier than average can be worth several times more than a lighter plant of the same type and mutations."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is Grow a Garden on Roblox?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Grow a Garden is a Roblox farming simulation game where players plant crops, apply mutations, raise pets, and trade produce with other players for Sheckles, the in-game currency."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best mutation combination in Grow a Garden?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The highest-value mutations currently supported are Disco, Celestial and Shocked, with Rainbow and Gold as the most commonly obtainable strong mutations. Stacking several of these on a heavy plant produces the biggest totals."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I know if a trade is fair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Calculate the total value of everything on both sides of the trade using this tool. If the two totals are close, the trade is roughly fair; a large gap means one side is being underpaid."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is this calculator affiliated with the Grow a Garden developers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. This is an independent, fan-made tool and is not affiliated with or endorsed by the developers of Grow a Garden or Roblox Corporation."
+      }
     }
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Grow a Garden Calculator",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Any",
+  "url": "https://grow-a-garden-calculator.github.io/",
+  "description": "Free calculator for the Roblox game Grow a Garden. Work out plant Sheckle values from crop, weight, mutations and quantity.",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  }
 }
 </script>
 <style>
@@ -292,6 +357,19 @@
     </div>
   </section>
 
+  <!-- ABOUT / INTRO -->
+  <section class="steps" id="about" style="padding-bottom:0;">
+    <div class="wrap">
+      <div class="section-head" style="max-width:74ch;">
+        <div class="kicker">ABOUT THE GAME</div>
+        <h2>What is Grow a Garden, and why does value math matter?</h2>
+        <p><strong>Grow a Garden</strong> is a Roblox farming simulation game where players plant seeds, grow crops, stack mutations on them, raise pets, and trade produce with other players for <strong>Sheckles</strong> &mdash; the game's currency. The core loop sounds simple: plant, grow, harvest, trade. In practice, the trading side gets complicated fast, because two visually identical plants can be worth wildly different amounts depending on their weight and which mutations landed on them while they grew.</p>
+        <p>A plain Carrot and a Gold, Rainbow-mutated Carrot at a heavier-than-average weight aren't in the same league value-wise &mdash; the difference can run into the thousands of Sheckles. Most players either eyeball a trade or take the other person's word for what something is worth, and that's exactly how rare plants end up traded away for far less than they're owed. This <strong>Grow a Garden calculator</strong> exists to close that gap: pick the crop, tick its mutations, enter the weight, and get a number you can actually trust before you hit accept.</p>
+        <p>Whether you're new and just want to understand why a heavier Tomato sells for more than a lighter one, or you're deep into farming Divine and Transcendent-tier crops and stacking Celestial and Disco mutations, the same formula applies. No account, no download, no ads blocking the tool &mdash; just the calculator.</p>
+      </div>
+    </div>
+  </section>
+
   <!-- CALCULATOR -->
   <section class="calc-section" id="calculator">
     <div class="wrap">
@@ -453,6 +531,22 @@
       <details class="faq-item">
         <summary>Are the values exact?</summary>
         <p>Base values and mutation multipliers are community-sourced estimates for planning trades, not official numbers pulled from the game's files. Always confirm the in-game sell price before a big trade.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What is Grow a Garden on Roblox?</summary>
+        <p>Grow a Garden is a Roblox farming simulation game where players plant crops, apply mutations, raise pets, and trade produce with other players for Sheckles, the in-game currency.</p>
+      </details>
+      <details class="faq-item">
+        <summary>What is the best mutation combination in Grow a Garden?</summary>
+        <p>Disco, Celestial and Shocked currently carry the highest multipliers in this calculator's chart, with Rainbow and Gold as the strongest realistic targets most players can reach regularly. Stack several on a heavy plant for the biggest totals.</p>
+      </details>
+      <details class="faq-item">
+        <summary>How do I know if a trade is fair?</summary>
+        <p>Calculate the total value of everything on both sides of the trade with this tool. If the two totals are close, it's a fair trade; a large gap means one side is being underpaid.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Is this calculator affiliated with the Grow a Garden developers?</summary>
+        <p>No. This is an independent, fan-made tool and isn't affiliated with or endorsed by the developers of Grow a Garden or Roblox Corporation.</p>
       </details>
     </div>
   </section>
